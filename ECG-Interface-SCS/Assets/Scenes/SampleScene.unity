@@ -7250,6 +7250,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1587128999233278763}
+  y: 0
+  startMarker: 0
 --- !u!1 &1587128998848162343
 GameObject:
   m_ObjectHideFlags: 0
@@ -7680,7 +7682,6 @@ GameObject:
   - component: {fileID: 7027576268980686833}
   - component: {fileID: 7027576268980686734}
   - component: {fileID: 7027576268980686832}
-  - component: {fileID: 7027576268980686835}
   m_Layer: 5
   m_Name: analysis_ECG_container
   m_TagString: Untagged
@@ -7771,18 +7772,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7027576268980686732}
   m_CullTransparentMesh: 1
---- !u!114 &7027576268980686835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7027576268980686732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1491adba4f34ffc4082fcb3a3560eba2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7027576268986039094
 GameObject:
   m_ObjectHideFlags: 0
@@ -11275,6 +11264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8610999071109491994}
+  y: 0
+  startMarker: 0
 --- !u!222 &8610999070454354963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11297,9 +11288,9 @@ GameObject:
   - component: {fileID: 8610999070454354962}
   - component: {fileID: 8610999070454354973}
   - component: {fileID: 8610999070454354972}
-  m_Layer: 6
+  m_Layer: 4
   m_Name: Marker
-  m_TagString: Untagged
+  m_TagString: target_img
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11335,7 +11326,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000026226044, y: 0.000061035156}
@@ -11464,7 +11455,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8610999070806825017}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71f0d2a7aa9cedb478b129942976acfd, type: 3}
   m_Name: 
@@ -11484,7 +11475,7 @@ GameObject:
   - component: {fileID: 8610999071109492004}
   - component: {fileID: 8610999071109492001}
   - component: {fileID: 8610999071109492000}
-  m_Layer: 5
+  m_Layer: 4
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11515,7 +11506,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.698188, y: -0.017654419}
@@ -11593,7 +11584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.19344974, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

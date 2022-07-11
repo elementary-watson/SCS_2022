@@ -11,7 +11,12 @@ public class Trigger_Logic : MonoBehaviour
 
     public void OnTriggerEnter2D()
     {
-        target.SetActive(false);
-        _movingMarker.SetMarkerFalse(false);
+        if (GameObject.FindWithTag("target_img"))
+        {
+            Debug.Log("match");
+            target.SetActive(false);
+            _movingMarker.SetMarkerFalse(false);
+        }
+     
     }
 }

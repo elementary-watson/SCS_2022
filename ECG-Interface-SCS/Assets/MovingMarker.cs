@@ -8,8 +8,8 @@ public class MovingMarker : MonoBehaviour
     //public float speed = 0f;
 
     public GameObject target;
-    float y;
-    bool startMarker;
+    [SerializeField] float y;
+    [SerializeField] bool startMarker;
     
     // Start is called before the first frame update
     void Start()
