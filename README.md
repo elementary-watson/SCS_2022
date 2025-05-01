@@ -11,3 +11,47 @@ A suitable process model was searched for the project that would balance out the
 
 ![image](https://github.com/user-attachments/assets/b3267607-f73e-4add-a3f9-1e1645cec4e7)
 Figure 1
+
+## COCOMO2
+A COCOMO 2 calculation was performed to get an estimate of developement time:
+Total Unadjusted Function Points (UFP) = 28
+Product Complexity Adjustment (PC) = 0.65 + (0.01· Total complexity adjustment value) = 0.65 + (0.01 · 16) = 0.81
+Total Adjusted Function Points (FP) = UFP · PC = 22.68
+SLOC = FP · LF = 22.4 · 38 = 861.84
+KLOC = SLOC/1000 = 0.8618
+Effort Adjustment Factor (EAF) = 0.88 · 0.94 · 0.7 · 1 · 1 ·
+0.87 · 0.87 · 0.86 · 1.13 · 1 · 1.1 · 0.95 · 1 · 1.10 · 1 = 0.5627
+Effort (E) = 3.0 · (KLOC)1.12 · EAF = 3.0 · (0.8618)1.12 ·
+0.5627 = 1.429 PM
+Development time(D) = 2.5 ·E0.35 = 2.5 · (1.429)0.35 = 2.83 months
+
+
+## Project Roles and Milestones
+The table in figure 2 presents the distribution of project Roles in the V-Modell XT that have been occupied in addition to the defined milestones in figure 3.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b079ff68-a123-452d-b1ed-fe5378a21391" alt="Figure 2 – Project Roles" width="45%" />
+  <img src="https://github.com/user-attachments/assets/dee2ead6-6781-4804-aa78-92329b9a525e" alt="Figure 3 – Milestones" width="45%" />
+</p>
+<p align="center">
+  <b>Figure 2:</b> Distribution of project roles in V-Modell XT &nbsp;&nbsp;&nbsp;
+  <strong>Figure 3:</strong> Defined milestones
+</p>
+
+## SOFTWARE REQUIREMENTS
+A sequence diagram of the project:
+![image](https://github.com/user-attachments/assets/e52e6e8e-bbc1-4baa-a0a2-53218b3f792a)
+![image](https://github.com/user-attachments/assets/d5048d7f-2bfd-46b6-b8b9-7749f3e026ee)
+
+
+The use case of the project:
+![image](https://github.com/user-attachments/assets/55375bcd-e189-4b15-b93f-2dcbc6a3592d)
+
+The UML Diagram of the project:
+![image](https://github.com/user-attachments/assets/9e1dcbde-8b82-407c-97cc-d6e88e925ff8)
+
+A state transition diagram of the project:
+![image](https://github.com/user-attachments/assets/b9f77e79-0318-4f3f-8226-3f59b5be8e7e)
+
+Results of the Failure Mode And Effects Analysis (FMEA) model:
+![image](https://github.com/user-attachments/assets/cf5ce4b6-83d6-4b5c-9735-e9e2a57cd021)
+
