@@ -12,17 +12,15 @@ A suitable process model was searched for the project that would balance out the
 ![image](https://github.com/user-attachments/assets/b3267607-f73e-4add-a3f9-1e1645cec4e7)
 Figure 1
 
-## COCOMO2
+## COCOMO2 Calulation 
 A COCOMO 2 calculation was performed to get an estimate of developement time:
 Total Unadjusted Function Points (UFP) = 28
 Product Complexity Adjustment (PC) = 0.65 + (0.01· Total complexity adjustment value) = 0.65 + (0.01 · 16) = 0.81
 Total Adjusted Function Points (FP) = UFP · PC = 22.68
 SLOC = FP · LF = 22.4 · 38 = 861.84
 KLOC = SLOC/1000 = 0.8618
-Effort Adjustment Factor (EAF) = 0.88 · 0.94 · 0.7 · 1 · 1 ·
-0.87 · 0.87 · 0.86 · 1.13 · 1 · 1.1 · 0.95 · 1 · 1.10 · 1 = 0.5627
-Effort (E) = 3.0 · (KLOC)1.12 · EAF = 3.0 · (0.8618)1.12 ·
-0.5627 = 1.429 PM
+Effort Adjustment Factor (EAF) = 0.88 · 0.94 · 0.7 · 1 · 1 · 0.87 · 0.87 · 0.86 · 1.13 · 1 · 1.1 · 0.95 · 1 · 1.10 · 1 = 0.5627
+Effort (E) = 3.0 · (KLOC)1.12 · EAF = 3.0 · (0.8618)1.12 · 0.5627 = 1.429 PM
 Development time(D) = 2.5 ·E0.35 = 2.5 · (1.429)0.35 = 2.83 months
 
 
