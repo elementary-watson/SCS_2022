@@ -1,4 +1,4 @@
-# SCS_2022
+# SCS_2022 Safety Critical Systems - ECG Detection System
 # The electrocardiogram (ECG)-human activity recognition (HAR) project
 
 Unity Project for Software Critical Systems
